@@ -61,4 +61,5 @@ Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 Comment line 23 and uncomment line 25 to make the null resource always run, now test with and without a public IP.
 
 # Enhancements if this was a production Code:
-Write Unit tests! 
+Write Unit tests!  
+Find out if you can trigger with aws_instance.vm.* - destroyed instance before I could test. 
