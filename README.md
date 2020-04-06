@@ -3,7 +3,7 @@ Repo contains code to create an ec2-instance and display whether it has a public
 
 # Pre-req:
 1.AWS account.  
-2.Key-pair. 
+2.Key-pair.  
 3.Load ssh agent with the keypair.   
 4.Setup .aws for awscli to work.  
 5.That VPC is already setup separately.  
