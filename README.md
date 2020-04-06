@@ -54,7 +54,8 @@ module.vm.null_resource.check_public_ip (remote-exec): Private IP of this instan
 module.vm.null_resource.check_public_ip (remote-exec): Good Install, no public IP found.
 module.vm.null_resource.check_public_ip: Creation complete after 2s [id=8138957688077430169]
 
-Apply complete! Resources: 1 added, 0 changed, 1 destroyed.```
+Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
+```
 
 # How to test:
 Comment line 23 and uncomment line 25 to make the null resource always run, now test with and without a public IP.
