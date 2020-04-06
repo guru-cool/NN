@@ -62,5 +62,5 @@ Comment line 23 and uncomment line 25 to make the null resource always run, now 
 
 # Enhancements if this was a production Code:
 Write Unit tests!  
-Find out if you can trigger with aws_instance.vm.* - destroyed instance before I could test. 
+Find out if you can trigger with aws_instance.vm.* - destroyed instance before I could test.  
 Improve Readme. Write about how the repo and code works.
