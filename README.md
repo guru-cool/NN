@@ -1,7 +1,7 @@
 # AIM:
 Repo contains code to create an ec2-instance and display whether it has a public IP or not.
 
-#Pre-req:
+# Pre-req:
 1.AWS account.
 2.Key-pair
 3.Load ssh agent with the keypair.
@@ -9,11 +9,11 @@ Repo contains code to create an ec2-instance and display whether it has a public
 5.That VPC is already setup separately.
 
 
-#Language:
+# Language:
 Terraform 12.17
 
 
-#How to run:
+# How to run:
 1. Setup tfvars file. An example is already in place.
 2. Setup ssh-agent (val `ssh-agent -s` && ssh-add $SSHKEYFILELOCATION)
 3. You may edit the code and choose not to use bastion if running from within a vpc. In this case rm lines:33,34 from modules/aws_instance/aws_instance.tf
@@ -21,7 +21,7 @@ Terraform 12.17
 5. tf plan - verify
 6. tf apply
 
-#Sample Output:
+# Sample Output:
 ```
 Do you want to perform these actions?
   Terraform will perform the actions described above.
@@ -56,7 +56,7 @@ module.vm.null_resource.check_public_ip: Creation complete after 2s [id=81389576
 
 Apply complete! Resources: 1 added, 0 changed, 1 destroyed.```
 
-#How to test:
+# How to test:
 Comment line 23 and uncomment line 25 to make the null resource always run, now test with and without a public IP.
 
 
