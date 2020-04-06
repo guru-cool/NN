@@ -15,7 +15,7 @@ Terraform 12.17
 
 # How to run:
 1. Setup tfvars file. An example is already in place.
-2. Setup ssh-agent (val `ssh-agent -s` && ssh-add $SSHKEYFILELOCATION)
+2. Setup ssh-agent (eval `ssh-agent -s` && ssh-add $SSHKEYFILELOCATION)
 3. You may edit the code and choose not to use bastion if running from within a vpc. In this case rm lines:33,34 from modules/aws_instance/aws_instance.tf
 4. tf init
 5. tf plan - verify
