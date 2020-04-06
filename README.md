@@ -58,7 +58,7 @@ Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 ```
 
 # How to test:
-Comment line 23 and uncomment line 25 to make the null resource always run, now test with and without a public IP.
+Comment line 23 and uncomment line 25 in modules/aws_instance/aws_instance.tf to make the null resource always run, now test with and without a public IP.
 
 # Enhancements if this was a production Code:
 Write Unit tests!  
